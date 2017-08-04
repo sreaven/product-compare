@@ -1,0 +1,13 @@
+{
+	"curly": true,
+	"eqeqeq": true,
+	"undef": true,
+	"unused": true,
+	"browser": true,
+	"strict": true,
+	"jquery": true,
+	"browserify": true,
+	"esnext": true,
+	"mocha": true,
+	"multistr": true
+}

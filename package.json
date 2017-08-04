@@ -1,0 +1,54 @@
+{
+  "name": "prod-compare",
+  "version": "1.0.0",
+  "description": "compare lazada product",
+  "main": "index.js",
+  "scripts": {
+    "lint": "grunt lint",
+    "build": "gulp build"
+  },
+  "keywords": [
+    "compare",
+    "product"
+  ],
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.7",
+    "express": "^4.15.3",
+    "lodash": "^3.10.1",
+    "promise": "^7.0.4",
+    "request": "^2.81.0",
+    "url-parse": "*"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "*",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-minify-css": "*",
+    "jshint": "*",
+    "gulp-jshint": "2.0.4",
+    "gulp-uglify": "*",
+    "gulp-rename": "*",
+    "gulp-clean": "*",
+    "gulp-concat": "*",
+    "gulp-notify": "*",
+    "gulp-cache": "*",
+    "gulp-livereload": "*",
+    "tiny-lr": "*",
+    "gulp-util": "^3.0.7",
+    "cheerio": "*",
+    "browserify": "^12.0.1"
+  },
+  "author": "Pham Duong Dang",
+  "license": "ISC",
+  "paths": {
+    "css": {
+      "src": "src/scss/",
+      "dest": "dist/css/"
+    },
+    "js": {
+      "src": "src/js/",
+      "dest": "dist/js/"
+    }
+  }
+}
